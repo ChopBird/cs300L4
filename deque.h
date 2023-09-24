@@ -11,15 +11,13 @@ struct Node
     int val;
     Node* next = nullptr;
 };
-deque(){
-    
-}
+
 
 Node* bot = nullptr ;
 Node* top = nullptr;
 
 public:
-deque();
+
 
 void push_front(int n);
 void push_back(int n);
@@ -29,6 +27,6 @@ int peak_front();
 int peak_back();
 void remove_all();
 
-
+~deque();
 };
 #endif
